@@ -15,7 +15,7 @@ From: ubuntu:20.04
 	make install
 	export DEBIAN_FRONTEND=noninteractive
 	apt-get -y install fastqc default-jre bowtie2
-	pip3 install deeptools
+	pip3 install deeptools==3.5.5
 %environment
 
 %runscript
